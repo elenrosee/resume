@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,28 +14,33 @@
     <!--maine container-->
     <div class="wrapper">
       <aside class="sidebar">
-        <img
-          class="my-photo"
-          src="
-        <!-- ./img/IMG_0026.JPG -->
-        "
-          alt="My photo"
-        />
+        <img class="my-photo" src="./images/my-photo.jpg" alt="My photo" />
 
         <!--Contacts container-->
         <div class="contacts-container">
           <h3 class="contacts-title">Contacts</h3>
-          <div>
-            <span class="contacts-link-tipe">C:</span>
-            <a class="contacts-link" href="tel:380951138598"
-              >+38 095 113 85 98</a
-            >
+          <div class="contact">
+            <span class="contacts-link-tipe">
+              <svg class="contacts-icon" width="30px" height="30px">
+                <use href="./images/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <span>:</span>
+            </span>
+
+            <a class="contacts-link" href="tel:380934653774">
+              +38 093 465 37 74
+            </a>
           </div>
-          <div>
-            <span class="contacts-link-tipe">E:</span>
-            <a class="contacts-link" href="mailto:chornyiav@gmail.com"
-              >chornyiav@gmail.com</a
-            >
+          <div class="contact">
+            <span class="contacts-link-tipe">
+              <svg class="contacts-icon" width="30px" height="30px">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              <span>:</span>
+            </span>
+            <a class="contacts-link" href="mailto:elenaovcharenko15@gmail.com">
+              ElenaOvcharenko15@gmail.com
+            </a>
           </div>
         </div>
 
@@ -49,10 +55,13 @@
               <span class="tech-skills-text">CSS3</span>
             </li>
             <li class="tech-skills-item">
+              <span class="tech-skills-text">SCSS</span>
+            </li>
+            <li class="tech-skills-item">
               <span class="tech-skills-text">GIT</span>
             </li>
             <li class="tech-skills-item">
-              <span class="tech-skills-text">WebPack</span>
+              <span class="tech-skills-text">Parcel</span>
             </li>
             <li class="tech-skills-item">
               <span class="tech-skills-text">JavaScript</span>
@@ -61,7 +70,10 @@
               <span class="tech-skills-text">React.js</span>
             </li>
             <li class="tech-skills-item">
-              <span class="tech-skills-text">Node.js</span>
+              <span class="tech-skills-text">Redux/Redux Toolkit</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Node.js (in process)</span>
             </li>
           </ul>
         </div>
@@ -71,16 +83,26 @@
           <h3 class="soft-skills-title">Soft Skills</h3>
           <ul>
             <li class="soft-skills-item">
-              <span class="soft-skills-text">Scrum</span>
-            </li>
-            <li class="soft-skills-item">
-              <span class="soft-skills-text">Agile</span>
-            </li>
-            <li class="soft-skills-item">
-              <span class="soft-skills-text">GTD</span>
-            </li>
-            <li class="soft-skills-item">
               <span class="soft-skills-text">Teamwork</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Lifelong learner</span>
+            </li>
+          </ul>
+        </div>
+
+        <!--Languages container-->
+        <div class="soft-skills-container">
+          <h3 class="soft-skills-title">Languages</h3>
+          <ul>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Ukrainian (native)</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Russian (native)</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">English (B2) </span>
             </li>
           </ul>
         </div>
@@ -90,14 +112,15 @@
       <div class="about-me-container">
         <!--about me main info-->
         <div class="info-container">
-          <h2 class="profession">Lashmaker</h2>
+          <h2 class="profession">Junior Front-end Developer</h2>
           <h1 class="name">Elena Ovcharenko</h1>
 
           <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+            Creative, ambitious person with a talent for thinking outside the
+            box And coming up with innovative ideas. Though i have no a special
+            education, i self educated Very well and continue learning new
+            things in IT technologies constantly. I'm flexible at educating new
+            Software, very adaptive to the circumstances.
           </p>
         </div>
 
@@ -106,32 +129,50 @@
           <h3 class="about-me-title">Projects</h3>
           <ol>
             <li class="projects-item">
-              <a class="projects-link" href="https://lovecamp.goit.ua/">
-                https://lovecamp.goit.ua/</a
+              <a
+                class="projects-link"
+                href="https://elenrosee.github.io/goit-markup-hw-08/"
               >
-              <span class="dots">...........................</span>
+                https://elenrosee.github.io/goit-markup-hw-08/</a
+              >
+              <span class="dots">...............</span>
               <span
                 ><b>[</b><span class="tech-name">HTML5, CSS3</span
                 ><b>]</b></span
               >
             </li>
             <li class="projects-item">
-              <a class="projects-link" href=" https://cryptohub.goit.ua/">
-                https://cryptohub.goit.ua/</a
+              <a
+                class="projects-link"
+                href="https://elenrosee.github.io/goit-js-hw-13-image-finder/"
               >
-              <span class="dots">..........................</span>
+                https://elenrosee.github.io/goit-js-hw-13-image-finder/</a
+              >
+              <span class="dots">...............</span>
               <span
                 ><b>[</b><span class="tech-name">JavaScript</span><b>]</b></span
               >
             </li>
             <li class="projects-item">
-              <a class="projects-link" href="https://kidslike.goit.co.ua/"
-                >https://kidslike.goit.co.ua/</a
+              <a
+                class="projects-link"
+                href="https://elenrosee.github.io/goit-react-hw-04-hooks-images/"
+                >https://elenrosee.github.io/goit-react-hw-04-hooks-images/</a
               >
-              <span class="dots">..........................</span>
+              <span class="dots">...............</span>
               <span
-                ><b>[</b><span class="tech-name">React.js, Node.js</span
-                ><b>]</b></span
+                ><b>[</b><span class="tech-name">React.js</span><b>]</b></span
+              >
+            </li>
+            <li class="projects-item">
+              <a
+                class="projects-link"
+                href="https://elenrosee-movies.netlify.app/"
+                >https://elenrosee-movies.netlify.app/</a
+              >
+              <span class="dots">...............</span>
+              <span
+                ><b>[</b><span class="tech-name">React.js</span><b>]</b></span
               >
             </li>
           </ol>
@@ -143,80 +184,40 @@
 
           <!--company 1-->
           <div>
-            <h4 class="profession-title">
-              Front-End Developer
-              <span class="profession-company">Freelance</span>
-            </h4>
+            <h4 class="profession-title">"Pinroom" beauty studio owner</h4>
             <span class="profession-time"
-              >September 2019 - up to now
-              <span class="profession-divider">|</span> Ukraine</span
+              >February 2018 - up to now<span class="profession-divider">
+                | </span
+              >Ukraine Ivano-Frankivsk</span
             >
 
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Working with stuff and clients.
               </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </li>
-              <li class="profession-duties-item">
-                Risus commodo viverra maecenas.
-              </li>
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo
-                eiusmod.
-              </li>
+              <li class="profession-duties-item">Financial management.</li>
+              <li class="profession-duties-item">Beauty services.</li>
             </ul>
           </div>
 
           <!--company 2-->
           <div>
-            <h4 class="profession-title">
-              Manager
-              <span class="profession-company">Roga &amp; Kopyta New</span>
-            </h4>
+            <h4 class="profession-title">Regional Manager</h4>
             <span class="profession-time"
-              >March 2015 - October 2018<span class="profession-divider">
+              >March 2014 - February 2018<span class="profession-divider">
                 | </span
-              >Ukraine</span
+              >Ukraine Cherkassy</span
             >
 
             <ul class="profession-duties">
               <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod labore et dolore magna aliqua.
+                Stuff recruitment and training.
               </li>
               <li class="profession-duties-item">
-                Quis ipsum suspendisse ultrices gravida.
+                Control of products availability and ordering in stores.
               </li>
               <li class="profession-duties-item">
-                Risus commodo viverra maecenas.
-              </li>
-            </ul>
-          </div>
-
-          <!--company 3-->
-          <div>
-            <h4 class="profession-title">
-              Manager
-              <span class="profession-company"> Roga &amp; Kopyta LLC</span>
-            </h4>
-            <span class="profession-time"
-              >June 2014 - February 2015<span class="profession-divider">
-                | </span
-              >Ukraine</span
-            >
-
-            <ul class="profession-duties">
-              <li class="profession-duties-item">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </li>
-              <li class="profession-duties-item">
-                Quis ipsum suspendisse ultrices gravida.
-              </li>
-              <li class="profession-duties-item">
-                Risus commodo viverra maecenas.
+                wholesale customers searching.
               </li>
             </ul>
           </div>
@@ -225,14 +226,12 @@
           <div>
             <h3 class="about-me-title">Education</h3>
 
-            <h4 class="my-university">
-              Kharkiv National University of Radioelectronics
-            </h4>
+            <h4 class="my-university">Kiev GoIT (online)</h4>
 
-            <h5>Management</h5>
+            <h5>Junior Full Stack Developer</h5>
 
             <span class="profession-time"
-              >Septermber 2009 - June 2014
+              >Septermber 2020 - up to now
               <span class="profession-divider"> | </span>Ukraine</span
             >
           </div>
