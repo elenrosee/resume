@@ -79,7 +79,7 @@ body {
 }
 
 .tech-skills-container {
-  margin-top: 55px;
+  margin-top: 35px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -90,6 +90,17 @@ body {
   line-height: 24px;
   margin-bottom: 20px;
   color: #ffffff;
+}
+
+.tech-skills-category {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.tech-skills-category:not(:first-child) {
+  margin-top: 10px;
 }
 
 .tech-skills-item {
@@ -151,8 +162,50 @@ body {
   margin-top: 24px;
 }
 
+.current-project-info {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.current-project-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px
+}
+
+.current_project_list {
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.current_project_list li {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current_project_list h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.current_project_list p {
+  margin: 0;
+  white-space: nowrap;
+}
+
 .info-container {
-  margin-bottom: 65px;
+  margin-bottom: 35px;
 }
 
 .about-me-title {
